@@ -1,0 +1,12 @@
+.condition{
+  border: 2px solid gray;
+  background-color: gray;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+}
+
+#title{
+  text-decoration: underline gray;
+  text-underline-position: below;
+}
