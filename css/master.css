@@ -1,12 +1,84 @@
+header{
+  letter-spacing: 20px;
+  width: auto;
+  margin:0 auto0;
+  text-align: center;
+
+  border-bottom: 5px solid black;
+
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  text-decoration: underline;;
+  color:black;
+}
+
 .condition{
   border: 2px solid gray;
   background-color: gray;
   padding: 5px;
+  padding-right: 50px;
   margin: 10px;
+  margin-right: 50px;
   color: white;
 }
 
+.problem{
+  padding-left: 20px;
+}
+
+.example{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+#img{
+  text-align: center;
+}
 #title{
-  text-decoration: underline gray;
-  text-underline-position: below;
+  /* text-decoration: underline gray; */
+  /* text-underline-position: below; */
+
+  border-bottom: 2px solid black;
+  width: 200px;
+}
+
+#list{
+  text-decoration: none;
+}
+
+#material{
+  background-color: gray;
+  color: white;
+
+  width: 300px;
+  padding: 10px;
+
+  margin-bottom: 20px;
+  /* margin-left: 10px; */
+}
+
+#grid{
+  /* border: 5px solid red; */
+  display:grid;
+  grid-template-columns: 200px 1fr;
+}
+
+#list{
+  border-right: 5px solid black;
+}
+
+#grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
